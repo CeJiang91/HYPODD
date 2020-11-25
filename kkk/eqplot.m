@@ -5,35 +5,6 @@ function[]=eqplot
 % eqplot displays 4 subfigures: 
 % Distribution of stations used in the relocation, map view of the events
 % and two cross sections. 
-%
-% The parameters listed below may be edited to change the view of the plot. 
-% On your mouse, use left click to zoom in, and right click to zoom out.
-
-% PARAMETER DESCRIPTION:
-%--- file names:
-% file_loc  	hypocenter file name (e.g. hypoDD.loc or hypoDD.reloc)
-% file_sta 	station file name (e.g. hypoDD.sta)
-% file_line	line file name to display geography 
-%                 (lines of 'lon lat'; separators are 'Nan  NaN')
-
-%--- cross sections:
-% phiA   	strike of cross section 
-% xshift	x-location of center of cross section 
-% yshift	y-location of center of cross section 
-% box_l 	length of cross section
-% box_w 	half width of cross section
-
-%--- event selection:
-% axlim  	axis dimension of map view plot in km
-% minmag	circle events with mag>minmag
-% id=[]		mark events with ID's listed here
-% itake=[]	display only events with ID's listed here
-% err=1		display errors [0=no,1=yes]
-
-% PARAMETER SETTING:
-file_loc='hypoDD.reloc'; 
-file_sta='hypoDD.sta'; 
-file_line='';
 phiA=150; xshift=0.1; yshift=0; box_l=1.5; box_w=0.2;
 axlim=1; minmag=10; id=[]; itake=[]; err=1;
 
