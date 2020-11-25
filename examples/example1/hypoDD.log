@@ -1,0 +1,32 @@
+starting hypoDD (v1.3 - 11/2010)...          Tue Nov 24 11:51:20 2020
+Input parameters: (from hypoDD.inp)
+  cross dtime file: dt.cc
+  catalog dtime file: dt.ct
+  station file: station.dat
+  event file: event.sel
+  initial locations: hypoDD.loc
+  relocated events: hypoDD.reloc
+  event pair file: hypoDD.res
+  station residual file: hypoDD.sta
+  source parameter file: hypoDD.src
+  IDATA=  3  IPHASE=  3  MAXDIST=  400.
+  MINOBS_CC=   0  MINOBS_CT=   8
+  ISTART= 2  ISOLV= 1
+  ITER  1- 4: DAMP=  20.0
+    WT_CCP=  1.0000  WT_CCS=  0.5000  MAXR_CC= -9.0000  MAXD_CC=   -9.00
+    WT_CTP=  0.0100  WT_CTS= -9.0000  MAXR_CT= -9.0000  MAXD_CT=   -9.00
+  ITER  5- 8: DAMP=  20.0
+    WT_CCP=  1.0000  WT_CCS=  0.5000  MAXR_CC=  5.0000  MAXD_CC=    3.00
+    WT_CTP=  0.0100  WT_CTS= -9.0000  MAXR_CT=  5.0000  MAXD_CT=   10.00
+  MOD_NL=  6  MOD_RATIO= 1.73
+    MOD_TOP    MOD_V
+      0.000    3.770
+      1.000    4.640
+      3.000    5.340
+      6.000    5.750
+     14.000    6.220
+     25.000    7.980
+ Relocate cluster number            1
+ Relocate all events
+
+~ Reading data ...   Tue Nov 24 11:51:20 2020 
